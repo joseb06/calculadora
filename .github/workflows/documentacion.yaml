@@ -8,6 +8,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: saludo
+        uses: joseb06/hello-world-action-by-jose-buitrago@v1.0
+        with:
+          who-to-greet: 'Mona the Octocat'
+    
       - name: Checkout
         uses: actions/checkout@v4.2.2
 
